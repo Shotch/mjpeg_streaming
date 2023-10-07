@@ -100,7 +100,6 @@ MaxBandwidth 10000000
 <Feed cam0.ffm>
 File /tmp/cam0.ffm
 FileMaxSize 75M
-Launch ./ffmpeg -input_format mjpeg -i /dev/video0 -c:v copy -override_ffserver
 </Feed>
 
 <Stream cam0>
