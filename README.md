@@ -88,7 +88,7 @@ hash -r
 sudo nano /etc/ffserver.conf
 ```
 
-2. Add your desired config setup, here's an example:
+2. Add your desired config setup, here's an example (also in ffserver.conf in the repo):
 
 ```xml
 HTTPPort 8090
@@ -161,4 +161,15 @@ Add the following lines:
 @reboot ffmpeg -framerate 30 -video_size 1280x720 -input_format mjpeg -i /dev/video0 -c:v copy http://localhost:8090/cam0.ffm -override_ffserver
 ```
 * Note Add multiple feeds, cameras, etc in the config, add the corresponding commands here.
-* Likely also worth putting in a python script or otherwise with a watchdog to automatically restart the processes 
+* Likely also worth putting in a python script or otherwise with a watchdog to automatically restart the processes
+
+## Project Pictures!
+Rough round trip latency:
+![Latency](latency%20+%20setup.png)
+
+<be><br>
+
+Robot pics:
+![Telly!](tellybot.png)
+<br>
+![TellySelfie](tellyselfie.png)
