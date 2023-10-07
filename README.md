@@ -43,7 +43,7 @@ Essential utilities for building and compiling FFmpeg from source:
 
 `autoconf`, `automake`, `build-essential`, `cmake`, `git-core`, `pkg-config`, `texinfo`, `wget`, `zlib1g-dev` 
 
-To do so, un the following:
+To do so, run the following:
 
 ```bash
 sudo apt-get update -qq && sudo apt-get -y install libmp3lame-dev libopus-dev libx264-dev \
